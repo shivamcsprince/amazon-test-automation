@@ -34,7 +34,7 @@ Tests run in **parallel** — TC1 (iPhone) and TC2 (Samsung Galaxy) execute simu
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/amazon-test-automation.git
+git clone https://github.com/shivamcsprince/amazon-test-automation.git
 cd amazon-test-automation
 
 # 2. Install dependencies
