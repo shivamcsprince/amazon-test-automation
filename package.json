@@ -1,0 +1,21 @@
+{
+  "name": "amazon-test-automation",
+  "version": "1.0.0",
+  "description": "Automated test cases for Amazon - iPhone & Galaxy search, cart, and price logging",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:parallel": "playwright test --workers=2",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "test:lambdatest": "node lambdatest.config.js",
+    "lint": "eslint tests/**/*.js"
+  },
+  "keywords": ["playwright", "automation", "amazon", "testing"],
+  "author": "SDE Automation Engineer",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "dotenv": "^16.4.5"
+  }
+}
